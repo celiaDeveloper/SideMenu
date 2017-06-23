@@ -19,6 +19,9 @@
 
 #import "UIView+UIViewCategory.h"
 #import "UIView+SHCZExt.h"
+#import "NSString+XTRegular.h"
+
+#import "XTProgressHUD.h"
 
 
 #endif /* PrefixHeader_pch */

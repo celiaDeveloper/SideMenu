@@ -7,6 +7,15 @@
 //
 
 #import "XDSideTableView.h"
+#import "XDMemberViewController.h"
+#import "XDTrackingViewController.h"
+#import "XDHistoryViewController.h"
+#import "XDComplaintsViewController.h"
+#import "XDContactUsViewController.h"
+#import "XDSettingViewController.h"
+
+#import "UIView+XDParentVC.h"
+#import "XDContainerViewController.h"
 
 @interface XDSideTableView ()<UITableViewDataSource, UITableViewDelegate>
 
@@ -16,7 +25,7 @@
 
 -(instancetype)initWithFrame:(CGRect)frame{
     self =[super initWithFrame:frame];
-    //    设置代理和数据源
+    //设置代理和数据源
     self.delegate=self;
     self.dataSource=self;
     
@@ -81,7 +90,48 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
+    XDContainerViewController *containerVC = (XDContainerViewController *)[self parentClass:[UIViewController class]];
     
+    switch (indexPath.row) {
+        case 0:
+        {
+            XDMemberViewController *memberVC = [[XDMemberViewController alloc] init];
+            [containerVC.navigationController pushViewController:memberVC animated:YES];
+        }
+            break;
+        case 1:
+        {
+            XDTrackingViewController *trackingVC = [[XDTrackingViewController alloc] init];
+            [containerVC.navigationController pushViewController:trackingVC animated:YES];
+        }
+            break;
+        case 2:
+        {
+            XDHistoryViewController *historyVC = [[XDHistoryViewController alloc] init];
+            [containerVC.navigationController pushViewController:historyVC animated:YES];
+        }
+            break;
+        case 3:
+        {
+            XDComplaintsViewController *complaintsVC = [[XDComplaintsViewController alloc] init];
+            [containerVC.navigationController pushViewController:complaintsVC animated:YES];
+        }
+            break;
+        case 4:
+        {
+            XDContactUsViewController *contactVC = [[XDContactUsViewController alloc] init];
+            [containerVC.navigationController pushViewController:contactVC animated:YES];
+        }
+            break;
+        case 5:
+        {
+            XDSettingViewController *settingVC = [[XDSettingViewController alloc] init];
+            [containerVC.navigationController pushViewController:settingVC animated:YES];
+        }
+            break;
+        default:
+            break;
+    }
     
 }
 

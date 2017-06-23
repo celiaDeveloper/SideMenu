@@ -31,6 +31,8 @@
 #define PANGESTURE_ADD          @"add_panGesture"       //添加滑动手势
 #define PANGESTURE_REMOVE       @"remove_panGesture"    //移除滑动手势
 
+#define LOGIN_Name              @"login_mobilePhone"    //登录手机号
+
 
 ///用户个人信息Key，使用NSUSerDefaults存取
 // 0 为登陆 1 登陆

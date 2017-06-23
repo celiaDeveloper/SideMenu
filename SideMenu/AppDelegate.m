@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "XDContainerViewController.h"
 #import "XDMainNavigationController.h"
+#import "XDLoginViewController.h"
 
 @interface AppDelegate ()
 
@@ -23,6 +24,9 @@
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
     
+    NSLog(@"screen width %f",mScreenWidth);
+    NSLog(@"screen height %f",mScreenHeight);
+    
     [self makeWindowRootVC];
     
     [self.window makeKeyAndVisible];
@@ -34,13 +38,25 @@
 
 - (void)makeWindowRootVC {
     
-    XDContainerViewController *CVC = [[XDContainerViewController alloc] init];
-    XDMainNavigationController *containerNav = [[XDMainNavigationController alloc] initWithRootViewController:CVC];
-    
-    containerNav.navigationBarHidden = YES;
-    
-    self.window.rootViewController = containerNav;
-    
+    if ([mUserDefaults boolForKey:ISLOGINTAG]) {
+        
+        //已经登录
+        XDContainerViewController *CVC = [[XDContainerViewController alloc] init];
+        XDMainNavigationController *containerNav = [[XDMainNavigationController alloc] initWithRootViewController:CVC];
+        
+        containerNav.navigationBarHidden = YES;
+        
+        self.window.rootViewController = containerNav;
+        
+    }else {
+        
+        XDLoginViewController *loginVC = [[XDLoginViewController alloc] init];
+        XDMainNavigationController *loginNav = [[XDMainNavigationController alloc] initWithRootViewController:loginVC];
+        
+        self.window.rootViewController = loginNav;
+        
+    }
+ 
 }
 
 

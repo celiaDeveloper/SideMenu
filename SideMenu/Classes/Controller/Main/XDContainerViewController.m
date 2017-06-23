@@ -114,10 +114,10 @@
         //限制透明view最右边的范围
         //    [self.view.subviews objectAtIndex:1].ttx=[self.view.subviews objectAtIndex:2].ttx;
         
-        //        当移动到左边极限时
+        //当移动到左边极限时
     }else if ([self.view.subviews objectAtIndex:2].transform.tx < 0.0){
         
-        //        限制最左边的范围
+        //限制最左边的范围
         [self.view.subviews objectAtIndex:2].transform = CGAffineTransformTranslate(self.view.transform, 0, 0);
         //    限制透明view最左边的范围
         //   [self.view.subviews objectAtIndex:1].ttx=[self.view.subviews objectAtIndex:2].ttx;
@@ -132,14 +132,13 @@
                 
                 [self.view.subviews objectAtIndex:2].transform = rightScopeTransform;
                 self.isShow = true;
-                //   [self.view.subviews objectAtIndex:1].ttx=[self.view.subviews objectAtIndex:2].ttx;
+                
                 
             }else{
                 self.isShow = false;
                 
                 [self.view.subviews objectAtIndex:2].transform = CGAffineTransformIdentity;
                 
-                //  [self.view.subviews objectAtIndex:1].ttx=[self.view.subviews objectAtIndex:2].ttx;
             }
         }];
     }
@@ -161,16 +160,12 @@
         [UIView animateWithDuration:0.2 animations:^{
             [self.view.subviews objectAtIndex:2].transform = rightScopeTransform;
         }];
-        //        [self.view.subviews objectAtIndex:1].ttx=[self.view.subviews objectAtIndex:2].ttx;
         
     }else{
         
         [UIView animateWithDuration:0.2 animations:^{
             [self.view.subviews objectAtIndex:2].transform = CGAffineTransformIdentity;
         }];
-        
-        
-        //        [self.view.subviews objectAtIndex:1].ttx=[self.view.subviews objectAtIndex:2].ttx;
         
         
     }

@@ -7,6 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F1916341EF75AAD00F30419 /* XDSideRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1916331EF75AAD00F30419 /* XDSideRootViewController.m */; };
+		3F1916381EF75CAD00F30419 /* XDMemberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1916371EF75CAD00F30419 /* XDMemberViewController.m */; };
+		3F19163B1EF75CC400F30419 /* XDTrackingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F19163A1EF75CC400F30419 /* XDTrackingViewController.m */; };
+		3F19163E1EF75CCF00F30419 /* XDHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F19163D1EF75CCF00F30419 /* XDHistoryViewController.m */; };
+		3F1916411EF75CE700F30419 /* XDComplaintsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1916401EF75CE700F30419 /* XDComplaintsViewController.m */; };
+		3F1916441EF75D0800F30419 /* XDContactUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1916431EF75D0800F30419 /* XDContactUsViewController.m */; };
+		3F1916471EF75D1000F30419 /* XDSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1916461EF75D1000F30419 /* XDSettingViewController.m */; };
+		3F19164A1EF7718A00F30419 /* UIView+XDParentVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1916491EF7718A00F30419 /* UIView+XDParentVC.m */; };
+		3F19164E1EFA63B700F30419 /* XDViewTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F19164D1EFA63B700F30419 /* XDViewTools.m */; };
+		3F1916511EFA674600F30419 /* XDLoginRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1916501EFA674600F30419 /* XDLoginRootViewController.m */; };
+		3F1916541EFA678600F30419 /* XDLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1916531EFA678600F30419 /* XDLoginViewController.m */; };
+		3F1916581EFA6BCC00F30419 /* NSString+XTRegular.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1916571EFA6BCC00F30419 /* NSString+XTRegular.m */; };
+		3F19165D1EFA6D6C00F30419 /* XDLoginCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F19165B1EFA6D6C00F30419 /* XDLoginCell.m */; };
+		3F19165E1EFA6D6C00F30419 /* XDLoginCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F19165C1EFA6D6C00F30419 /* XDLoginCell.xib */; };
+		3F1916611EFBB97D00F30419 /* XDRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1916601EFBB97D00F30419 /* XDRegisterViewController.m */; };
+		3F1916641EFBB99900F30419 /* XDForgotPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1916631EFBB99800F30419 /* XDForgotPasswordViewController.m */; };
+		3F1916671EFC939A00F30419 /* XDHtmlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1916661EFC939A00F30419 /* XDHtmlViewController.m */; };
+		3F19166A1EFC9D9400F30419 /* XDDNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1916691EFC9D9400F30419 /* XDDNetworking.m */; };
+		3F1916721EFC9F3700F30419 /* ForgotPasswordModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F19166D1EFC9F3700F30419 /* ForgotPasswordModel.m */; };
+		3F1916731EFC9F3700F30419 /* LoginParameterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F19166F1EFC9F3700F30419 /* LoginParameterModel.m */; };
+		3F1916741EFC9F3700F30419 /* RegisterParameterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1916711EFC9F3700F30419 /* RegisterParameterModel.m */; };
+		3F1916791EFC9F4000F30419 /* ExitLoginModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1916781EFC9F4000F30419 /* ExitLoginModel.m */; };
+		3F19167C1EFC9F8300F30419 /* SMSModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F19167B1EFC9F8300F30419 /* SMSModel.m */; };
+		3F19167F1EFC9F9A00F30419 /* CommonParameterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F19167E1EFC9F9A00F30419 /* CommonParameterModel.m */; };
+		3F1916841EFCA03600F30419 /* NSArray+null.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1916811EFCA03600F30419 /* NSArray+null.m */; };
+		3F1916851EFCA03600F30419 /* NSDictionary+null.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1916831EFCA03600F30419 /* NSDictionary+null.m */; };
+		3F1916881EFCA19200F30419 /* NSString+XDCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1916871EFCA19200F30419 /* NSString+XDCategory.m */; };
+		3F19168E1EFCA2C800F30419 /* XTLanguageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F19168B1EFCA2C800F30419 /* XTLanguageManager.m */; };
+		3F19168F1EFCA2C800F30419 /* XTProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F19168D1EFCA2C800F30419 /* XTProgressHUD.m */; };
 		3F27182A1EF27AD300D9E534 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2718291EF27AD300D9E534 /* main.m */; };
 		3F27182D1EF27AD300D9E534 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F27182C1EF27AD300D9E534 /* AppDelegate.m */; };
 		3F2718331EF27AD300D9E534 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F2718311EF27AD300D9E534 /* Main.storyboard */; };
@@ -27,6 +56,63 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F1916321EF75AAD00F30419 /* XDSideRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDSideRootViewController.h; sourceTree = "<group>"; };
+		3F1916331EF75AAD00F30419 /* XDSideRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDSideRootViewController.m; sourceTree = "<group>"; };
+		3F1916361EF75CAD00F30419 /* XDMemberViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDMemberViewController.h; sourceTree = "<group>"; };
+		3F1916371EF75CAD00F30419 /* XDMemberViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDMemberViewController.m; sourceTree = "<group>"; };
+		3F1916391EF75CC400F30419 /* XDTrackingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDTrackingViewController.h; sourceTree = "<group>"; };
+		3F19163A1EF75CC400F30419 /* XDTrackingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDTrackingViewController.m; sourceTree = "<group>"; };
+		3F19163C1EF75CCF00F30419 /* XDHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDHistoryViewController.h; sourceTree = "<group>"; };
+		3F19163D1EF75CCF00F30419 /* XDHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDHistoryViewController.m; sourceTree = "<group>"; };
+		3F19163F1EF75CE700F30419 /* XDComplaintsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDComplaintsViewController.h; sourceTree = "<group>"; };
+		3F1916401EF75CE700F30419 /* XDComplaintsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDComplaintsViewController.m; sourceTree = "<group>"; };
+		3F1916421EF75D0800F30419 /* XDContactUsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDContactUsViewController.h; sourceTree = "<group>"; };
+		3F1916431EF75D0800F30419 /* XDContactUsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDContactUsViewController.m; sourceTree = "<group>"; };
+		3F1916451EF75D1000F30419 /* XDSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDSettingViewController.h; sourceTree = "<group>"; };
+		3F1916461EF75D1000F30419 /* XDSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDSettingViewController.m; sourceTree = "<group>"; };
+		3F1916481EF7718A00F30419 /* UIView+XDParentVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XDParentVC.h"; sourceTree = "<group>"; };
+		3F1916491EF7718A00F30419 /* UIView+XDParentVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XDParentVC.m"; sourceTree = "<group>"; };
+		3F19164C1EFA63B700F30419 /* XDViewTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDViewTools.h; sourceTree = "<group>"; };
+		3F19164D1EFA63B700F30419 /* XDViewTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDViewTools.m; sourceTree = "<group>"; };
+		3F19164F1EFA674600F30419 /* XDLoginRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDLoginRootViewController.h; sourceTree = "<group>"; };
+		3F1916501EFA674600F30419 /* XDLoginRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDLoginRootViewController.m; sourceTree = "<group>"; };
+		3F1916521EFA678600F30419 /* XDLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDLoginViewController.h; sourceTree = "<group>"; };
+		3F1916531EFA678600F30419 /* XDLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDLoginViewController.m; sourceTree = "<group>"; };
+		3F1916561EFA6BCC00F30419 /* NSString+XTRegular.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XTRegular.h"; sourceTree = "<group>"; };
+		3F1916571EFA6BCC00F30419 /* NSString+XTRegular.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XTRegular.m"; sourceTree = "<group>"; };
+		3F19165A1EFA6D6C00F30419 /* XDLoginCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDLoginCell.h; sourceTree = "<group>"; };
+		3F19165B1EFA6D6C00F30419 /* XDLoginCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDLoginCell.m; sourceTree = "<group>"; };
+		3F19165C1EFA6D6C00F30419 /* XDLoginCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XDLoginCell.xib; sourceTree = "<group>"; };
+		3F19165F1EFBB97D00F30419 /* XDRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDRegisterViewController.h; sourceTree = "<group>"; };
+		3F1916601EFBB97D00F30419 /* XDRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDRegisterViewController.m; sourceTree = "<group>"; };
+		3F1916621EFBB99800F30419 /* XDForgotPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDForgotPasswordViewController.h; sourceTree = "<group>"; };
+		3F1916631EFBB99800F30419 /* XDForgotPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDForgotPasswordViewController.m; sourceTree = "<group>"; };
+		3F1916651EFC939A00F30419 /* XDHtmlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDHtmlViewController.h; sourceTree = "<group>"; };
+		3F1916661EFC939A00F30419 /* XDHtmlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDHtmlViewController.m; sourceTree = "<group>"; };
+		3F1916681EFC9D9400F30419 /* XDDNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDDNetworking.h; sourceTree = "<group>"; };
+		3F1916691EFC9D9400F30419 /* XDDNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDDNetworking.m; sourceTree = "<group>"; };
+		3F19166C1EFC9F3700F30419 /* ForgotPasswordModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgotPasswordModel.h; sourceTree = "<group>"; };
+		3F19166D1EFC9F3700F30419 /* ForgotPasswordModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgotPasswordModel.m; sourceTree = "<group>"; };
+		3F19166E1EFC9F3700F30419 /* LoginParameterModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginParameterModel.h; sourceTree = "<group>"; };
+		3F19166F1EFC9F3700F30419 /* LoginParameterModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginParameterModel.m; sourceTree = "<group>"; };
+		3F1916701EFC9F3700F30419 /* RegisterParameterModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterParameterModel.h; sourceTree = "<group>"; };
+		3F1916711EFC9F3700F30419 /* RegisterParameterModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterParameterModel.m; sourceTree = "<group>"; };
+		3F1916771EFC9F4000F30419 /* ExitLoginModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExitLoginModel.h; sourceTree = "<group>"; };
+		3F1916781EFC9F4000F30419 /* ExitLoginModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExitLoginModel.m; sourceTree = "<group>"; };
+		3F19167A1EFC9F8300F30419 /* SMSModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMSModel.h; sourceTree = "<group>"; };
+		3F19167B1EFC9F8300F30419 /* SMSModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMSModel.m; sourceTree = "<group>"; };
+		3F19167D1EFC9F9A00F30419 /* CommonParameterModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonParameterModel.h; sourceTree = "<group>"; };
+		3F19167E1EFC9F9A00F30419 /* CommonParameterModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonParameterModel.m; sourceTree = "<group>"; };
+		3F1916801EFCA03600F30419 /* NSArray+null.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+null.h"; sourceTree = "<group>"; };
+		3F1916811EFCA03600F30419 /* NSArray+null.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+null.m"; sourceTree = "<group>"; };
+		3F1916821EFCA03600F30419 /* NSDictionary+null.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+null.h"; sourceTree = "<group>"; };
+		3F1916831EFCA03600F30419 /* NSDictionary+null.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+null.m"; sourceTree = "<group>"; };
+		3F1916861EFCA19200F30419 /* NSString+XDCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XDCategory.h"; sourceTree = "<group>"; };
+		3F1916871EFCA19200F30419 /* NSString+XDCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XDCategory.m"; sourceTree = "<group>"; };
+		3F19168A1EFCA2C800F30419 /* XTLanguageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTLanguageManager.h; sourceTree = "<group>"; };
+		3F19168B1EFCA2C800F30419 /* XTLanguageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTLanguageManager.m; sourceTree = "<group>"; };
+		3F19168C1EFCA2C800F30419 /* XTProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTProgressHUD.h; sourceTree = "<group>"; };
+		3F19168D1EFCA2C800F30419 /* XTProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTProgressHUD.m; sourceTree = "<group>"; };
 		3F2718251EF27AD300D9E534 /* SideMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SideMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F2718291EF27AD300D9E534 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3F27182B1EF27AD300D9E534 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -78,6 +164,100 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F1916351EF75C1100F30419 /* Side */ = {
+			isa = PBXGroup;
+			children = (
+				3F1916361EF75CAD00F30419 /* XDMemberViewController.h */,
+				3F1916371EF75CAD00F30419 /* XDMemberViewController.m */,
+				3F1916391EF75CC400F30419 /* XDTrackingViewController.h */,
+				3F19163A1EF75CC400F30419 /* XDTrackingViewController.m */,
+				3F19163C1EF75CCF00F30419 /* XDHistoryViewController.h */,
+				3F19163D1EF75CCF00F30419 /* XDHistoryViewController.m */,
+				3F19163F1EF75CE700F30419 /* XDComplaintsViewController.h */,
+				3F1916401EF75CE700F30419 /* XDComplaintsViewController.m */,
+				3F1916421EF75D0800F30419 /* XDContactUsViewController.h */,
+				3F1916431EF75D0800F30419 /* XDContactUsViewController.m */,
+				3F1916451EF75D1000F30419 /* XDSettingViewController.h */,
+				3F1916461EF75D1000F30419 /* XDSettingViewController.m */,
+			);
+			path = Side;
+			sourceTree = "<group>";
+		};
+		3F19164B1EFA638E00F30419 /* CustomTools */ = {
+			isa = PBXGroup;
+			children = (
+				3F1916681EFC9D9400F30419 /* XDDNetworking.h */,
+				3F1916691EFC9D9400F30419 /* XDDNetworking.m */,
+				3F19164C1EFA63B700F30419 /* XDViewTools.h */,
+				3F19164D1EFA63B700F30419 /* XDViewTools.m */,
+			);
+			path = CustomTools;
+			sourceTree = "<group>";
+		};
+		3F1916551EFA6BCC00F30419 /* XRRegular */ = {
+			isa = PBXGroup;
+			children = (
+				3F1916561EFA6BCC00F30419 /* NSString+XTRegular.h */,
+				3F1916571EFA6BCC00F30419 /* NSString+XTRegular.m */,
+			);
+			path = XRRegular;
+			sourceTree = "<group>";
+		};
+		3F1916591EFA6D5200F30419 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				3F19165A1EFA6D6C00F30419 /* XDLoginCell.h */,
+				3F19165B1EFA6D6C00F30419 /* XDLoginCell.m */,
+				3F19165C1EFA6D6C00F30419 /* XDLoginCell.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		3F19166B1EFC9EE000F30419 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				3F19167D1EFC9F9A00F30419 /* CommonParameterModel.h */,
+				3F19167E1EFC9F9A00F30419 /* CommonParameterModel.m */,
+				3F19167A1EFC9F8300F30419 /* SMSModel.h */,
+				3F19167B1EFC9F8300F30419 /* SMSModel.m */,
+				3F19166C1EFC9F3700F30419 /* ForgotPasswordModel.h */,
+				3F19166D1EFC9F3700F30419 /* ForgotPasswordModel.m */,
+				3F19166E1EFC9F3700F30419 /* LoginParameterModel.h */,
+				3F19166F1EFC9F3700F30419 /* LoginParameterModel.m */,
+				3F1916701EFC9F3700F30419 /* RegisterParameterModel.h */,
+				3F1916711EFC9F3700F30419 /* RegisterParameterModel.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		3F1916751EFC9F4000F30419 /* Side */ = {
+			isa = PBXGroup;
+			children = (
+				3F1916761EFC9F4000F30419 /* Setting */,
+			);
+			path = Side;
+			sourceTree = "<group>";
+		};
+		3F1916761EFC9F4000F30419 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				3F1916771EFC9F4000F30419 /* ExitLoginModel.h */,
+				3F1916781EFC9F4000F30419 /* ExitLoginModel.m */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		3F1916891EFCA2C800F30419 /* XTHUD */ = {
+			isa = PBXGroup;
+			children = (
+				3F19168A1EFCA2C800F30419 /* XTLanguageManager.h */,
+				3F19168B1EFCA2C800F30419 /* XTLanguageManager.m */,
+				3F19168C1EFCA2C800F30419 /* XTProgressHUD.h */,
+				3F19168D1EFCA2C800F30419 /* XTProgressHUD.m */,
+			);
+			path = XTHUD;
+			sourceTree = "<group>";
+		};
 		3F27181C1EF27AD200D9E534 = {
 			isa = PBXGroup;
 			children = (
@@ -146,6 +326,7 @@
 		3F2718411EF283A400D9E534 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				3F1916351EF75C1100F30419 /* Side */,
 				3F27184C1EF28D7100D9E534 /* Main */,
 				3F27184D1EF28D9300D9E534 /* Base */,
 				3F27184B1EF28D7100D9E534 /* Login */,
@@ -159,6 +340,8 @@
 		3F2718421EF283A400D9E534 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				3F1916751EFC9F4000F30419 /* Side */,
+				3F19166B1EFC9EE000F30419 /* Login */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -166,6 +349,8 @@
 		3F2718431EF283A400D9E534 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				3F1916891EFCA2C800F30419 /* XTHUD */,
+				3F1916551EFA6BCC00F30419 /* XRRegular */,
 				3F27186D1EF29C3300D9E534 /* esayLayout */,
 			);
 			path = Tools;
@@ -174,6 +359,7 @@
 		3F2718441EF283A400D9E534 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				3F1916591EFA6D5200F30419 /* Login */,
 				3F2718661EF2949F00D9E534 /* Side */,
 			);
 			path = View;
@@ -182,6 +368,7 @@
 		3F2718491EF28D6400D9E534 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				3F19164B1EFA638E00F30419 /* CustomTools */,
 				3F27184A1EF28D6400D9E534 /* Category */,
 			);
 			path = Common;
@@ -190,6 +377,14 @@
 		3F27184A1EF28D6400D9E534 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				3F1916801EFCA03600F30419 /* NSArray+null.h */,
+				3F1916811EFCA03600F30419 /* NSArray+null.m */,
+				3F1916821EFCA03600F30419 /* NSDictionary+null.h */,
+				3F1916831EFCA03600F30419 /* NSDictionary+null.m */,
+				3F1916481EF7718A00F30419 /* UIView+XDParentVC.h */,
+				3F1916491EF7718A00F30419 /* UIView+XDParentVC.m */,
+				3F1916861EFCA19200F30419 /* NSString+XDCategory.h */,
+				3F1916871EFCA19200F30419 /* NSString+XDCategory.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -197,6 +392,14 @@
 		3F27184B1EF28D7100D9E534 /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				3F1916521EFA678600F30419 /* XDLoginViewController.h */,
+				3F1916531EFA678600F30419 /* XDLoginViewController.m */,
+				3F19165F1EFBB97D00F30419 /* XDRegisterViewController.h */,
+				3F1916601EFBB97D00F30419 /* XDRegisterViewController.m */,
+				3F1916621EFBB99800F30419 /* XDForgotPasswordViewController.h */,
+				3F1916631EFBB99800F30419 /* XDForgotPasswordViewController.m */,
+				3F1916651EFC939A00F30419 /* XDHtmlViewController.h */,
+				3F1916661EFC939A00F30419 /* XDHtmlViewController.m */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -219,6 +422,10 @@
 			children = (
 				3F2718571EF28F6600D9E534 /* XDMainRootViewController.h */,
 				3F2718581EF28F6600D9E534 /* XDMainRootViewController.m */,
+				3F1916321EF75AAD00F30419 /* XDSideRootViewController.h */,
+				3F1916331EF75AAD00F30419 /* XDSideRootViewController.m */,
+				3F19164F1EFA674600F30419 /* XDLoginRootViewController.h */,
+				3F1916501EFA674600F30419 /* XDLoginRootViewController.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -353,6 +560,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F2718381EF27AD300D9E534 /* LaunchScreen.storyboard in Resources */,
+				3F19165E1EFA6D6C00F30419 /* XDLoginCell.xib in Resources */,
 				3F2718351EF27AD300D9E534 /* Assets.xcassets in Resources */,
 				3F2718331EF27AD300D9E534 /* Main.storyboard in Resources */,
 			);
@@ -414,18 +622,46 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F2718501EF28DAD00D9E534 /* XDContainerViewController.m in Sources */,
+				3F1916581EFA6BCC00F30419 /* NSString+XTRegular.m in Sources */,
+				3F19167C1EFC9F8300F30419 /* SMSModel.m in Sources */,
 				3F2718591EF28F6600D9E534 /* XDMainRootViewController.m in Sources */,
+				3F1916411EF75CE700F30419 /* XDComplaintsViewController.m in Sources */,
+				3F19163E1EF75CCF00F30419 /* XDHistoryViewController.m in Sources */,
+				3F1916721EFC9F3700F30419 /* ForgotPasswordModel.m in Sources */,
+				3F19168F1EFCA2C800F30419 /* XTProgressHUD.m in Sources */,
 				3F2718691EF294C700D9E534 /* XDSideTableView.m in Sources */,
+				3F19163B1EF75CC400F30419 /* XDTrackingViewController.m in Sources */,
 				3F2718761EF29C3300D9E534 /* UIView+UIViewCategory.m in Sources */,
 				3F2718531EF28E5500D9E534 /* XDMainViewController.m in Sources */,
+				3F19164E1EFA63B700F30419 /* XDViewTools.m in Sources */,
+				3F19167F1EFC9F9A00F30419 /* CommonParameterModel.m in Sources */,
+				3F1916791EFC9F4000F30419 /* ExitLoginModel.m in Sources */,
 				3F2718651EF28FD800D9E534 /* XDMainNavigationController.m in Sources */,
+				3F1916881EFCA19200F30419 /* NSString+XDCategory.m in Sources */,
 				3F27182D1EF27AD300D9E534 /* AppDelegate.m in Sources */,
+				3F19168E1EFCA2C800F30419 /* XTLanguageManager.m in Sources */,
 				3F2718621EF28F9F00D9E534 /* XDMessageViewController.m in Sources */,
 				3F27186C1EF294D800D9E534 /* XDSideView.m in Sources */,
 				3F2718791EF35D8D00D9E534 /* UIView+SHCZExt.m in Sources */,
+				3F1916541EFA678600F30419 /* XDLoginViewController.m in Sources */,
+				3F1916641EFBB99900F30419 /* XDForgotPasswordViewController.m in Sources */,
+				3F1916471EF75D1000F30419 /* XDSettingViewController.m in Sources */,
+				3F1916511EFA674600F30419 /* XDLoginRootViewController.m in Sources */,
 				3F27185F1EF28F9100D9E534 /* XDDraftViewController.m in Sources */,
+				3F19166A1EFC9D9400F30419 /* XDDNetworking.m in Sources */,
+				3F19165D1EFA6D6C00F30419 /* XDLoginCell.m in Sources */,
+				3F1916611EFBB97D00F30419 /* XDRegisterViewController.m in Sources */,
+				3F1916381EF75CAD00F30419 /* XDMemberViewController.m in Sources */,
+				3F1916441EF75D0800F30419 /* XDContactUsViewController.m in Sources */,
 				3F27182A1EF27AD300D9E534 /* main.m in Sources */,
+				3F1916731EFC9F3700F30419 /* LoginParameterModel.m in Sources */,
+				3F1916671EFC939A00F30419 /* XDHtmlViewController.m in Sources */,
+				3F19164A1EF7718A00F30419 /* UIView+XDParentVC.m in Sources */,
+				3F1916841EFCA03600F30419 /* NSArray+null.m in Sources */,
 				3F27185C1EF28F8200D9E534 /* XDHomeViewController.m in Sources */,
+				3F1916851EFCA03600F30419 /* NSDictionary+null.m in Sources */,
+				3F1916341EF75AAD00F30419 /* XDSideRootViewController.m in Sources */,
+				3F1916741EFC9F3700F30419 /* RegisterParameterModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

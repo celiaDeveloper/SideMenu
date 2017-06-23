@@ -71,6 +71,7 @@
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     
     if ([mUserDefaults boolForKey:MENU_SHOWED]) {
+        //菜单显示状态，发通知将菜单隐藏
         [mNotificationCenter postNotificationName:NOTIFICATION_ShowMenu object:nil];
         NSLog(@"hide_menu hide_menu hide_menu ");
     }else {
