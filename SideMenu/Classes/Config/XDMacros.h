@@ -92,8 +92,8 @@ UIAlertAction *okAction = [UIAlertAction actionWithTitle:@"确定" style:UIAlert
 #define mStatusBarHeight      ([UIApplication sharedApplication].statusBarFrame.size.height)
 #define mNavHeight            (mNavBarHeight + mStatusBarHeight)
 #define m6PScale              mScreenWidth/1242.0
-#define m6Scale               mScreenWidth/750.0
-#define m5Scale               mScreenWidth/640.0
+#define m6Scale               mScreenWidth/375.0
+#define m5Scale               mScreenWidth/320.0
 
 
 //调试模式下输入NSLog，发布后不再输入。

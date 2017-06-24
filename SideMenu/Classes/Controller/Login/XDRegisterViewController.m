@@ -60,14 +60,14 @@ static NSString *const regisCellID = @"register_cell";
 //子视图初始化
 - (void)SubViewInit {
     
-    _regisTableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 64, mScreenWidth, 180*m6PScale*4 + 50)];
+    _regisTableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 64, mScreenWidth, 180*m6PScale*4 + 20)];
     _regisTableView.backgroundColor = [UIColor clearColor];
     _regisTableView.dataSource = self;
     _regisTableView.delegate = self;
     _regisTableView.scrollEnabled = NO;
     
     //tableview 添加头视图
-    UIView *headView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, mScreenWidth, 50)];
+    UIView *headView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, mScreenWidth, 20)];
     [_regisTableView setTableHeaderView:headView];
     
     
